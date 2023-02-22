@@ -1,21 +1,9 @@
 from csv_writer import CSVWriter
 
 
-def order(g, p):
-    for n in range(2, p):
-        val = pow(g, n, p)
-
-        if val == g:
-            return n
-    return p
-
-
 def find_generator(p):
     # Write your code here
-
-    for g in range(2, p):
-        if order(g, p) == p:
-            return g
+    pass
 
 
 csv_writer = CSVWriter()
