@@ -1,6 +1,6 @@
 # Generators
 
-Given a finite field with **p = 602221** find the smallest element generator **“g”** which is a primitive element of Fp.
+Given a finite field with a prime number **p** find the smallest element generator **“g”** which is a primitive element of Fp.
 
 ## Steps
 
