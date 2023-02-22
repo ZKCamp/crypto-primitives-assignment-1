@@ -20,11 +20,11 @@ Given a finite field with a prime number **p** find the smallest element generat
     git checkout -b my-name
     ```
 
--   Make changes to the [main.py](main.py) file - `src/`
+-   Make changes to the [main.py](main.py) file
 
 -   Run the [main.py](main.py) file. This is required to populate the [solution.csv](solution.csv) file 
     ```
     python3 main.py
     ```
 
--   Create a pull request from your branch to the main branch of original repo to run the github workflow.
+-   Create a pull request from your branch to the main branch of the repo to run the github workflow.
