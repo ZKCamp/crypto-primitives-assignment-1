@@ -15,7 +15,7 @@ class CSVWriter:
     def write(self, g_values):
         rows = [self.rows[0]]
         for idx, row in enumerate(self.rows[1:]):
-            rows.append([row[0], str(g_values[idx - 1])])
+            rows.append([row[0], str(g_values[idx])])
 
         with open(self.file_name, "w") as file:
             file_writer = csv.writer(file)
