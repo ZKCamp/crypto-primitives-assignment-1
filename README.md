@@ -1,6 +1,10 @@
 # Generators
 
-Given a finite field with a prime number **p** find the smallest element generator **“g”** which is a primitive element of Fp.
+Every element of a finite field Fp can be used to make a subgroup H under repeated action of multiplication. In other words, for an element g: H = {g, g^2, g^3, ...}
+
+A generator of Fp is an element whose subgroup H = Fp, i.e., every element of Fp, can be written as g^n mod p for some integer n.
+
+**Given a finite field with a prime number `p` find the smallest element generator `g` which is a primitive element of Fp.**
 
 ## Steps
 
